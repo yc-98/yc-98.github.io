@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>PRAJWALIT</title>
-  <link rel="shortcut icon" type="image/x-icon" href="ithead.png" />
+  <title>Bootstrap Theme</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="animate.css">
   
@@ -15,15 +15,15 @@
   <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Bilbo' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=Eagle Lake' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=Economica' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=Almendra Display' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="countercss.css">
   <style>
   body {
+    background-image: url('fire.gif');
+    background-size :cover;
+background-repeat:no repeat;
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
-      margin-top: 70px;
   }
   h2 {
       font-size: 24px;
@@ -48,19 +48,8 @@
   .container-fluid {
       padding: 60px 50px;
   }
- .bg-grey {
-      background-color: #330a00;
-      margin-top: 0px;
-
-  }
-  .ycontext{
-    color: #ffad33;
-  }
-  a.yconlink{
-    color: #ff471a;
-  }
-  a.yconlink:hover{
-    color: #cc2900;
+  .bg-grey {
+      background-color: #f6f6f6;
   }
   .logo-small {
       color: #f4511e;
@@ -301,7 +290,7 @@
     	font-size: 40px;
     	text-align: center;
     	width: 65px;
-    	height: 65px;
+    	height: 60px;
     }
     .subtext{
     	font-size: 30px;
@@ -311,7 +300,7 @@
 	
   </style>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" style="background-color:#fafad2" >
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" >
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -332,19 +321,36 @@
     </div>
   </div>
 </nav>
+<div class="jumbotron text-center">
+  <h1>Company</h1> 
+  <p>We specialize in blablabla</p> 
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+</div>
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
-    <br><br>
   <div class="row">
-        <h2 style="color:#FF8C00;font-family: Eagle Lake">Prajwalit</h2>
-      <h4 style="font-size: 23px; font-family: Economica">Prajwalit is the national level technical symposium organised by the newly authorized Department of Information Technology. A number of competitions, workshops and events will be organized to serve  the backbone for fulfilling the basic motto of Tech fest - Science and Technology. With the conjugation of some of the finest technical minds of the Branch it will provide a platform for the aspiring engineers to promulgate their skills and  reach the pinnacle of their talents and show their capabilities. It promises an extravaganza you surely wouldn't have experienced before.</h4><br>
+    <div class="col-sm-8">
+        <h2 style="color:#FF8C00">Prajwalit</h2>
+      <h4>Prajwalit is the national level technical symposium organised by the newly authorized Department of Information and technology. A number of competitions, workshops and events will be organized to serve  the backbone for fulfilling the basic motto of Tech fest - Science and Technology. With the conjugation of some of the finest technical minds of the Branch it will provide a platform for the aspiring engineers to promulgate their skills and  reach the pinnacle of their talents and show their capabilities. It promises an extravaganza you surely wouldn't have experienced before.</h4><br>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
   </div>
 </div>
 
 
 	
 <div class="ycount">
+	<div class="container-fluid">
 		<div class="row content">
 			<div class="col-sm-3 ywatch" style="padding-left: 0px;">
 
@@ -356,10 +362,10 @@
 			<div class="col-sm-6 " style="padding-left: 0px;">
 					<div class="row text-center yctime">
 						<div class="col-xs-3" >
-					
-                                                    <button class="ddbut" type="button" ><span id="dd" style="padding-bottom: 10px;color:white;font-family: Cinzel;"></span></button>
+						<p>
+						<button class="ddbut" type="button" ><span id="dd" style="color: white;font-family: Cinzel;"></span></button>
 						<br><span class="subtext">DAYS</span> 
-						
+						</p>
 						</div>
 						<div class="col-xs-3" >
 						<p>
@@ -379,7 +385,7 @@
 			</div>
 			
 		</div>
-
+	</div>
 
 
 </div>
@@ -395,7 +401,7 @@
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
-          <div class="panel-heading"><img src='Robotics.png'/>
+          <div class="panel-heading"><img src='logo.png'/>
           <h1>Robotics</h1>
         </div>
         <div class="panel-body">
@@ -412,7 +418,7 @@
     </div>     
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
-        <div class="panel-heading"><img src='switchcoding.png' />
+        <div class="panel-heading"><img src='switch.png' />
             <h1>Switch Coding</h1>
         </div>
         <div class="panel-body">
@@ -429,7 +435,7 @@
     </div>       
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
-        <div class="panel-heading"><img src='treasurehunt.png' />
+        <div class="panel-heading"><img src='th.png' />
           <h1>Treasure Hunt</h1>
         </div>
         <div class="panel-body">
@@ -444,191 +450,59 @@
       </div>      
     </div>    
   </div>
-    
-    
-    
-    
-    
-    
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-          <div class="panel-heading"><img src='designing.png' />
-            <h1>Designing</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>About</strong></p>
-          <p><strong></strong>Put your coding skills to the ultimate test! in the race against time and prepare yourself to challenge against some of the daunting and brain tickling problems.</p>
-          <p><strong></strong></p>
-        </div>
-        <div class="panel-footer">
-           <h3>PRIZES WORTH</h3>
-          <h3>500</h3>
-          <button class="btn btn-lg">Register</button>
-        </div>
-      </div>      
-    </div>     
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-          <div class="panel-heading"><img src='photography.png' />
-            <h1>Photography</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>About</strong></p>
-          <p><strong></strong>The last thing you want is to put off your own enjoyment. Don't say, "I'll do it later." Give yourself the gift of creative photography fun... today!</p>
-          <p><strong></strong></p>
-        </div>
-        <div class="panel-footer">
-           <h3>PRIZES WORTH</h3>
-          <h3>500</h3>
-          <button class="btn btn-lg">Register</button>
-        </div>
-      </div>      
-    </div>       
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-          <div class="panel-heading"><img src='hackathon.png' />
-          <h1>Hackathon</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>About</strong></p>
-          <p><strong></strong>Get ready to hit the ground running,overtaking opponents and be the first one to Grab onto treasures that holds it all.This time the hunting land is VSSUT !</p>
-        </div>
-        <div class="panel-footer">
-          <h3>PRIZES WORTH</h3>
-          <h3>1000</h3>
-          <button class="btn btn-lg">Register</button>
-        </div>
-      </div>      
-    </div>    
-  </div>
-    
-    
-    
-    
-    
-    
-    
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-          <div class="panel-heading"><img src='gaming.png'/>
-          <h1>Gaming</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>About</strong></p>
-          <p><strong></strong>It's time to glorify those restless nights you've spent behind your gaming screens.Prajwalit 2k18 calls out to all the enthusiastic gamers to prepare for the ultimate battle!.</p>
-          
-        </div>
-        <div class="panel-footer">
-          <h3>PRIZES WORTH</h3>
-          <h3>500</h3>
-          <button class="btn btn-lg">Register</button>
-        </div>
-      </div>      
-    </div>     
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-          <div class="panel-heading"><img src='quiz.png'/>
-          <h1>Quiz Bytes</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>About</strong></p>
-          <p><strong></strong>If you are the ones,always waiting to experience something thrilling with your buddies.Then let's get ready, because, PRAJWALIIT 2k18  presents "QUIZ BYTES". TIME FOR FUN! </p>
-          
-        </div>
-        <div class="panel-footer">
-          <h3>PRIZES WORTH</h3>
-          <h3>500</h3>
-          <button class="btn btn-lg">Register</button>
-        </div>
-      </div>      
-    </div>     
-      
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-          <div class="panel-heading"><img src='paperpresentation.png' />
-          <h1>Paper Presentation</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>About</strong></p>
-          <p><strong></strong> The competition is designed for students to display skills in PC assembly with great precision and speed. All the computer parts must be replaced back on the computer and to the right positions.</p>
-        </div>
-        <div class="panel-footer">
-          <h3>PRIZES WORTH</h3>
-          <h3>1000</h3>
-          <button class="btn btn-lg">Register</button>
-        </div>
-      </div>      
-    </div>    
-  </div>
 </div>
-
-
-
-
-
-
-
 
 <!-- Container (Contact Section) -->
 <div id="contacts" class="container-fluid bg-grey">
-  <h2 class="text-center" style="color: #F8CD2B">CONTACT&nbsp; US</h2>
-  <br>
+  <h2 class="text-center">CONTACT</h2>
   <div class="row">
-    <div class="col-sm-3" >
-      <h1 align="center" style="font-family: Almendra Display;color:white;font-weight: bold;  ">PRAJWALIT <br>2k18</h1>
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
     </div>
-    <div class="col-sm-9">
-      <br>
-      <h2 style="color: #ff6600">STUDENT&nbsp; COORDINATORS</h2>
-      <div class="row center">
-        <br>
-        <div class="col-sm-5 ycontext">
-          NILESH&nbsp; PANDA
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
         </div>
-        <div class="col-sm-5">
-          <a class="yconlink" href="mailto:nileshpanda969@gmail.com">nileshpanda969@gmail.com</a>
-        </div>
-        <div class="col-sm-2">
-          <a class="yconlink" href="tel:9853414865">9853414865</a>
-          
-        </div>
-        <br>
-        <div class="col-sm-5 ycontext">
-          DEBASISH &nbsp;MAHAPATRO
-        </div>
-        <div class="col-sm-5">
-          <a class="yconlink" href="mailto:nileshpanda969@gmail.com">debasishmahapatro432@gmail.com</a>
-        </div>
-        <div class="col-sm-2">
-          <a class="yconlink" href="tel:8093627090">8093627090</a>
-        </div>
-        <br>
-        <div class="col-sm-5 ycontext">
-          ABINASH&nbsp; MOHAPATRA
-        </div>
-        <div class="col-sm-5">
-          <a class="yconlink" href="mailto:abinashmohapatra161@gmail.com">abinashmohapatra161@gmail.com</a>
-        </div>
-        <div class="col-sm-2">
-          <a class="yconlink" href="tel:8895751644"> 8895751644</a>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-        
-      </p>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <!-- Add Google Maps -->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1856.1273014879314!2d83.90372884872247!3d21.49774513318831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ff9f072d7be2686!2sDepartment+Of+Computer+Science+%2C+IT+and+MCA!5e0!3m2!1sen!2sin!4v1520148473999" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  
+  <p>Bootstrap Theme</p>
 </footer>
 
 <script>
